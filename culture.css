@@ -1,0 +1,114 @@
+/* .video{
+
+  width: 90%;  
+} */
+
+
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-image: url(Akosomvo.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    text-align: center; 
+    min-height: 200px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:flex-end; 
+}
+
+.header-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+a:hover{
+    color: red;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(0, 238, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline;
+    padding: 15px;
+    background-color:rgba(75, 128, 0, 0.686);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    /* transition-property: transform ;
+    transition-duration: 0.3s ;
+    transition-timing-function: ease;
+    -o-transition-delay:0s ; */
+  /* transition: transform 0.3,; */
+ animation-duration:3s;
+  animation-name:spin;
+}
+
+ video{
+    border-radius: 5em;
+    width: 90%;
+    height: 700px;
+    justify-items: center;
+    /* float: right; */
+/* margin-top: 15%; */
+}
+
+section  h1{
+text-align: center;
+    text-decoration: underline;
+
+    
+}
+/* 
+body {
+    background-image:url(prio.jpg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+} */
+.p{
+  text-align: left;
+}
+
+.history{
+   margin-top: 15; 
+} */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+.logo img{
+    width: 80px;
+    margin-right: 800px;
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+}

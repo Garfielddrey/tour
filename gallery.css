@@ -1,0 +1,122 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-image: url(Akosomvo.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 10px;
+    text-align: center; 
+    min-height: 200px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:flex-end; 
+}
+
+.header-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+
+a:hover{
+    color: red;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(0, 251, 255);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline;
+    padding: 15px;
+    background-color:rgba(75, 128, 0, 0.686);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    /* transition-property: transform ;
+    transition-duration: 0.3s ;
+    transition-timing-function: ease;
+    -o-transition-delay:0s ; */
+  /* transition: transform 0.3,; */
+ animation-duration:3s;
+  animation-name:spin;
+}
+.akoso{
+    text-decoration: none;
+    color: rgba(255, 166, 0, 0.91);
+}
+.gallery{
+    overflow: hidden; 
+    border-radius: 10px;
+    padding: 30px;
+    /* display: flex; */
+   gap:30px ;
+}
+.pic{
+    position: relative;
+    overflow: hidden;
+    border-radius: 10px;
+box-shadow: 0 0 1rem black;
+display: flex;
+gap: 30px;
+}
+.picture{
+    position: relative;
+     overflow: hidden; */
+    border-radius: 10px;
+box-shadow: 0 0 0.5rem black; 
+display: flex;
+gap:30px ;
+margin-top: 5%;
+}
+.photo{
+    
+    position: relative;
+     overflow: hidden; 
+    border-radius: 10px;
+box-shadow: 0 0 0.5rem black; 
+display: flex;
+gap:30px ;
+margin-top: 2%;
+}
+h1{
+    text-align: center;
+    text-decoration: underline;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+   
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 80px;
+    margin-right: 800px;
+}

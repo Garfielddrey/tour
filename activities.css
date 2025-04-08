@@ -1,0 +1,177 @@
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+}
+
+header {
+    background-image: url(Akosomvo.jpg); 
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 170, 0);
+    padding: 10px;
+    text-align: center; 
+    min-height: 200px; 
+    display: flex; 
+    flex-direction: column; 
+    justify-content: center; 
+    align-items:flex-end; 
+}
+.h1{
+color: red;
+}
+
+.header-content {
+    max-width: 800px; 
+    margin: 0 auto; 
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo img{
+    width: 80px;
+   font-size: medium;
+    margin-right: 800px;
+    float: left;
+    /* color: rgba(30, 255, 218, 0.833); */
+}
+.logo img h1{
+    display: inline-flex;
+}
+
+
+a:hover{
+    color: red;
+}
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    color: rgb(0, 255, 195);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.cta-button {
+    display: inline;
+    padding: 15px;
+    background-color:rgba(75, 128, 0, 0.686);
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    /* transition-property: transform ;
+    transition-duration: 0.3s ;
+    transition-timing-function: ease;
+    -o-transition-delay:0s ; */
+  /* transition: transform 0.3,; */
+ animation-duration:3s;
+  animation-name:spin;
+  pointer-events: painted;
+}
+.btec{
+   display: inline-flex;
+}
+.text{
+    text-align: center;
+    text-decoration: underline;
+    color:#333;
+}
+ img{
+    border-radius: 40%;
+    width: 50%;
+    height: 20%;
+padding: 15%;
+
+
+ } 
+.imag img{
+    /* float: left; */
+    height: 70%;
+    width: 70%;
+    display: inline-flex;
+}
+.it{
+    width: 100%;
+}
+.all{
+    display: inline-flex;
+}
+.bird img{
+
+width: 70%;
+height: 70%;
+}
+.sec{
+/* margin-bottom: 50px; */
+display: inline-flex;
+/* padding-right: 5%; */
+justify-self: center;
+}
+.hike img{
+    width: 70%;
+    height: 70%;
+}
+.hpe{
+    /* margin-top: 12%; */
+/* justify-self: right;   */
+margin-right: 200px;
+
+}
+.un{
+ margin-top: 70px;
+}
+.it h1{
+    text-decoration: underline;
+   justify-self: center;
+}
+.unit{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.unit h1{
+    text-decoration: underline;
+    justify-self: center;
+}
+.trip{
+
+    display: inline-flex;
+    justify-self: center;  
+}
+.Boat{
+    margin-top: 100px;
+width: 100%;
+
+   /* margin-top: 100px; */
+}
+
+.Boat h1{
+    text-decoration: underline;
+    justify-self: center;
+}
+.bot{
+    margin-top: 150px;
+    /* justify-self: center; */
+}
+
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    margin-top: 15%;
+}
